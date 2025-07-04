@@ -2,3 +2,4 @@ pandas
 yfinance
 fpdf
 python-telegram-bot==20.7
+apscheduler==3.10.4
