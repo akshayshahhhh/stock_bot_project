@@ -1,0 +1,45 @@
+📘 {{ stock_name }} – TECHNICAL & FUNDAMENTAL SNAPSHOT
+
+📅 Date: {{ date }}
+
+────────────────────────────────────────────
+🔹 I. PRICE SUMMARY
+• CMP (NSE): ₹{{ cmp }}
+• 52-Week Range: ₹{{ low }} – ₹{{ high }}
+• Trend: {{ trend }}
+• Support Zone: {{ support }}
+• Resistance Zone: {{ resistance }}
+
+────────────────────────────────────────────
+🔹 II. PRICE ACTION
+• Structure: {{ structure }}
+• Candlestick Pattern: {{ candle }}
+• Breakout Trigger: {{ breakout }}
+
+────────────────────────────────────────────
+🔹 III. VOLUME ANALYSIS
+• Today's Volume: {{ today_volume }} shares
+• 10-Day Avg Volume: {{ avg10_volume }} shares
+• 50-Day Avg Volume: {{ avg50_volume }} shares
+• Volume Signal: {{ volume_strength }}
+
+────────────────────────────────────────────
+🔹 IV. INDICATORS
+• RSI (14): {{ rsi }}
+• MACD: {{ macd }} | Signal: {{ macd_signal }} | Histogram: {{ macd_hist }}
+• RS vs Nifty: {{ rs_nifty }}%
+• RS vs Nifty 500: {{ rs_nifty500 }}%
+
+────────────────────────────────────────────
+🔹 V. MOVING AVERAGES
+• EMA 21: ₹{{ ema21 }}
+• EMA 50: ₹{{ ema50 }}
+• EMA 200: ₹{{ ema200 }}
+
+────────────────────────────────────────────
+🔹 VI. EARNINGS SNAPSHOT (Last 3 Years)
+{{ earnings }}
+
+────────────────────────────────────────────
+📌 Disclaimer: This is an automated analysis for educational use only.
+Consult a SEBI-registered advisor before investing.
